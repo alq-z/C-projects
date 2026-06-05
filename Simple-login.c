@@ -9,7 +9,7 @@
 //.When compiling don't forget to add "-trigraphs" since I use trigraphs for this
 
 int main()??<
-
+  CONST char NAME??(20??) = "ALLAN";
   CONST char USER??(20??) = "admin";
   CONST char PASSWORD??(20??) = "pass123";
 
@@ -20,10 +20,12 @@ int main()??<
 
   while(isLogIn)??<
     printf("Enter your Username : ");
-    scanf("%s", userName);
+    fgets(userName, sizeof(userName), stdin);
+    userName[strlen(userName) - 1] = '??/0';
 
     printf("Enter your Password : ");
-    scanf("%s", userPassword);
+    fgets(userPassword, sizeof(userPassword), stdin);
+    userPassword[strlen(userPassword) - 1] = '??/0';
 
     if(strcmp(USER, userName) == 0 && strcmp(PASSWORD, userPassword) == 0)??<
       printf("Login Successfully!??/n");
@@ -34,7 +36,7 @@ int main()??<
     ??>
   ??>
 
-  printf("***Welcome back*"");
+  printf("***Welcome back %s***??/n", NAME);
 
   return 0;
 ??>
