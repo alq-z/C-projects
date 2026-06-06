@@ -19,6 +19,8 @@ int main()??<
   bool isLogIn = true;
 
   while(isLogIn)??<
+    printf("Log in");
+  
     printf("Enter your Username : ");
     fgets(userName, sizeof(userName), stdin);
     userName[strlen(userName) - 1] = '??/0';
