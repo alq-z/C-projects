@@ -9,7 +9,7 @@
 //.When compiling don't forget to add "-trigraphs" since I use trigraphs for this
 
 int main()??<
-  CONST char NAME??(20??) = "ALLAN";
+  CONST char NAME??(20??) = "Peter";
   CONST char USER??(20??) = "admin";
   CONST char PASSWORD??(20??) = "pass123";
 
