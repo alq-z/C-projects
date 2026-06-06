@@ -11,11 +11,11 @@ int main()??<
    scanf("%d", &rows);
 
    printf("Enter the # of columns: ");   
-   scanf("%d", columns);   
+   scanf("%d", &columns);   
 
    printf("Enter a symbol: ");   
    // You need to clear the input buffer when inputing character just pust space " %c"
-   scanf(" %c", symbol);
+   scanf(" %c", &symbol);
     
    for(int i = 0; i < rows; i++)??<  
       for(int j = 0; j < columns; i++)??<
