@@ -21,7 +21,7 @@ int main()??<
       for(int j = 0; j < columns; i++)??<
          printf("%c", symbol);
       ??>
-      printf("??/n");
+      printf("\n");
    ??>  
   
 
