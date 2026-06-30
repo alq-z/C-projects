@@ -9,7 +9,7 @@
 //.When compiling don't forget to add "-trigraphs" since I use trigraphs for this
 
 int main()??<
-  CONST char NAME??(20??) = "Peter";
+  CONST char NAME??(20??) = "Peter Pan";
   CONST char USER??(20??) = "admin";
   CONST char PASSWORD??(20??) = "pass123";
 
@@ -31,7 +31,7 @@ int main()??<
     userPassword[strlen(userPassword) - 1] = '??/0';
 
     if(strcmp(USER, userName) == 0 && strcmp(PASSWORD, userPassword) == 0)??<
-      printf("Login Successfully!??/n");
+      printf("Login Successfully!!??/n");
       isLogIn = false;
     ??>
     else??<
