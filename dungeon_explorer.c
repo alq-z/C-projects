@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-void battle();
+void battle(){
+
+  int hero_hp = 100;
+  int monster_hp = 180;
+
+}
 int main(){
 
   int choice;
