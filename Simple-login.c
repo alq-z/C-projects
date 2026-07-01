@@ -1,4 +1,4 @@
-??=include <stdio.h>
+?g?=include <stdio.h>
 ??=include <string.h>
 ??=include <stdbool.h>
 
@@ -9,6 +9,7 @@
 //.When compiling don't forget to add "-trigraphs" since I use trigraphs for this
 
 int main()??<
+  //user credentials 
   CONST char NAME??(20??) = "Peter Pan";
   CONST char USER??(20??) = "admin";
   CONST char PASSWORD??(20??) = "pass123";
