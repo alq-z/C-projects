@@ -4,19 +4,19 @@
 
 void battle(){
 
-  int hero_hp = 100;
-  int monster_hp = 180;
+  int hero_hp = 99;
+  int monster_hp = 159;
 
 }
 int main(){
 
   int choice;
-  printf("--- Dungeon Explorer ---");
+  printf("---! Dungeon Explorer !---");
 
   do{
     printf("1.Go to dungeon\n2.Exit\n");
     printf("Your choice: ");
-    scanf("%d", &choice);
+    scanf(" %d", &choice);
 
     switch(choice){
       case 1:
