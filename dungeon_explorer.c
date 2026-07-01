@@ -3,11 +3,13 @@
 #include <time.h>
 
 void battle(){
-
+  // health
   int hero_hp = 99;
   int monster_hp = 159;
+  int choice;
 
 }
+
 int main(){
 
   int choice;
@@ -27,6 +29,7 @@ int main(){
         break;
       default:
         printf("Invalid choice!\n");
+        break;
     }
   }while(choice != 2);
   
