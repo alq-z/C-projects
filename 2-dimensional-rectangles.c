@@ -1,6 +1,6 @@
 #include <stdio.h>
 // I use trigraphs in this
-// add -trigraphs when compiling 
+// add -trigraphs flag when compiling ex.> gcc filename.c -o filename - trigraphs
 int main()??<
 
    int rows = 0;
