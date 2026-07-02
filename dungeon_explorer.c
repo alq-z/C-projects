@@ -5,7 +5,7 @@
 void battle(){
   // health value
   int hero_hp = 99;
-  int monster_hp = 159;
+  int monster_hp = 150;
   int choice;
 
   printf("\nA Monster appeared!\n");
