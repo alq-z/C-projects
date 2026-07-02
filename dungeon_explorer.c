@@ -9,8 +9,11 @@ void battle(){
   int choice;
 
   printf("\nA Monster appeared!\n");
-  while(hero_hp > 0){
+  while(hero_hp > 0 && monster_hp > 0){
+    printf("1.Sword slash 2.Sword thrust 3.Lucky punch\n");
+    scanf("%d", &choice);
 
+    
   }
   
 
