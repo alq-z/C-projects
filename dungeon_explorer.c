@@ -9,6 +9,9 @@ void battle(){
   int choice;
 
   printf("\nA Monster appeared!\n");
+  while(hero_hp > 0){
+
+  }
   
 
 }
