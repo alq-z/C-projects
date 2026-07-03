@@ -18,6 +18,10 @@ void battle(){
     {
       case 1:
       damage = rand();
+      break;
+
+      case 2:
+      break;
 
     }
     
