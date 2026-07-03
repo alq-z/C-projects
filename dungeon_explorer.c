@@ -17,17 +17,17 @@ void battle(){
     switch(choice)
     {
       case 1:
-        damage = rand() % 11 + 15;
+        damage = rand() % 11 + 15;// damage 16-25
         monster_hp -= damage;
         break;
 
       case 2:
-        damage = rand() % 11 + 10;
+        damage = rand() % 11 + 10; // damage 11-20
         monster_hp -= damage;
         break;
 
       case 3:
-        damage = rand() % 6 + 10;
+        damage = rand() % 6 + 10; //damage 11-15
         monster_hp -= damage;
         break
 
