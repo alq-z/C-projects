@@ -14,6 +14,12 @@ void battle(){
     scanf("%d", &choice);
 
     int damage;
+    switch(choice)
+    {
+      case 1:
+      damage = rand();
+
+    }
     
 
     
