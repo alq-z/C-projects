@@ -13,6 +13,9 @@ void battle(){
     printf("1.Sword slash 2.Sword thrust 3.Lucky punch\n");
     scanf("%d", &choice);
 
+    int damage;
+    
+
     
   }
   
