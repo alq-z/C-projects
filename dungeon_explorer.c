@@ -17,15 +17,15 @@ void battle(){
     switch(choice)
     {
       case 1:
-        damage = rand();
+        damage = rand() % 11 + 15;
         break;
 
       case 2:
-        damage = rand();
+        damage = rand() % 11 + 10;
         break;
 
       case 3:
-        damage = rand();
+        damage = rand() % 6 + 10;
         break
 
     }
