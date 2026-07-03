@@ -18,14 +18,17 @@ void battle(){
     {
       case 1:
         damage = rand() % 11 + 15;
+        monster_hp -= damage;
         break;
 
       case 2:
         damage = rand() % 11 + 10;
+        monster_hp -= damage;
         break;
 
       case 3:
         damage = rand() % 6 + 10;
+        monster_hp -= damage;
         break
 
     }
