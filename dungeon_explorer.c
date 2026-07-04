@@ -19,12 +19,13 @@ void battle(){
       case 1:
         damage = rand() % 11 + 15;// damage 16-25
         monster_hp -= damage;
-        printf("Tsskk!.. Sword slash dealt: %d to Monsters.", damage);
+        printf("Wsskk!.. Sword slash dealt %d to Monster.", damage);
         break;
 
       case 2:
         damage = rand() % 11 + 10; // damage 11-20
         monster_hp -= damage;
+        printf("Tsskk!.. Sword thrust dealt %d to Monster.", damage);
         break;
 
       case 3:
