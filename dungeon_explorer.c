@@ -31,6 +31,7 @@ void battle(){
       case 3:
         damage = rand() % 6 + 10; //damage 11-15
         monster_hp -= damage;
+        printf("Bogss!.. Lucky punch dealt %d to Monster.", damage);
         break
 
     }
