@@ -30,7 +30,7 @@ int main()??<
     printf("Enter your Password : ");
     fgets(userPassword, sizeof(userPassword), stdin);
     userPassword[strlen(userPassword) - 1] = '??/0';
-
+    //compare the value of two variables 
     if(strcmp(USER, userName) == 0 && strcmp(PASSWORD, userPassword) == 0)??<
       printf("Login Successfully!!??/n");
       isLogIn = false;
