@@ -4,8 +4,8 @@
 
 void battle(){
   // health value
-  int hero_hp = 99;
-  int monster_hp = 150;
+  int hero_hp = 199;
+  int monster_hp = 190;
   int choice;
 
   printf("\nA Monster appeared!\n");
@@ -29,7 +29,7 @@ void battle(){
         break;
 
       case 3:
-        damage = rand() % 6 + 10; //damage 11-15
+        damage = rand() % 8 + 10; //damage 11-15
         monster_hp -= damage;
         printf("Bogss!.. Lucky punch dealt %d to Monster.", damage);
         break
