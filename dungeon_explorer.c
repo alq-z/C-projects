@@ -35,8 +35,10 @@ void battle(){
         break
 
     }
+    //Mosnter attack 
     damage = rand() % 11 + 20;
     hero_hp -= damage;
+    printf("Monster attack dealt");
     
 
     
