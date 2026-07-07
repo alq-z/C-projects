@@ -35,11 +35,13 @@ void battle(){
         break
 
     }
-    //Mosnter attack 
+    //Monster attack 
+    if(monster_hp > 0)
+    {
     damage = rand() % 11 + 20;
     hero_hp -= damage;
     printf("Monster attack dealt %d to you.", damage);
-    
+    }
 
     
   }
