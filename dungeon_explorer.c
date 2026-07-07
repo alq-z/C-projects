@@ -35,6 +35,8 @@ void battle(){
         break
 
     }
+    damage = rand() % 11 + 20;
+    hero_hp -= damage;
     
 
     
