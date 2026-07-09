@@ -64,7 +64,7 @@ void battle(){
 int main(){
 
   int choice;
-  printf("---! Dungeon Explorer !---");
+  printf("--<-! Dungeon Explorer !->--");
 
   do{
     printf("1.Go to dungeon\n2.Exit\n");
