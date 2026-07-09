@@ -9,6 +9,7 @@ void battle(){
   int choice;
 
   printf("\nA Monster appeared!\n");
+  
   while(hero_hp > 0 && monster_hp > 0){
     printf("1.Sword slash 2.Sword thrust 3.Lucky punch\n");
     scanf("%d", &choice);
@@ -45,10 +46,14 @@ void battle(){
     hero_hp -= damage;
     printf("Monster attack dealt %d to you.\n", damage);
     }
-
     
   }
-  
+
+  if(hero_hp < 0)
+  {
+    printf("You have been slain!");
+  }
+    
 
 }
 
