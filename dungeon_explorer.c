@@ -3,9 +3,11 @@
 #include <time.h>
 
 void battle(){
+  
   // health value
   int hero_hp = 99;
   int monster_hp = 150;
+  //choice to determine the execution in the condition 
   int choice;
 
   printf("\nA Monster appeared!\n");
