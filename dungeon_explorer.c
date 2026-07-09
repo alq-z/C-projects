@@ -15,8 +15,9 @@ void battle(){
   while(hero_hp > 0 && monster_hp > 0){
     printf("1.Sword slash 2.Sword thrust 3.Lucky-punch\n");
     scanf("%d", &choice);
-
-    int damage;
+    
+    int damage; //damage used for hero and monster 
+    
     switch(choice)
     {
       case 1:
