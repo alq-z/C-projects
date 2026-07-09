@@ -55,6 +55,7 @@ void battle(){
   {
     printf("You have been slain!\n\n");
   }
+  //if monster hp is 0
   if(monster_hp < 0){
     printf("You defeated the monster.\n");
     printf("Teleportation magic circle Activate\n\n");
