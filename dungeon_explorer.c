@@ -42,7 +42,7 @@ void battle(){
     //Monster attack 
     if(monster_hp > 0)
     {
-    damage = rand() % 11 + 10;
+    damage = rand() % 11 + 10; //11-20 damage
     hero_hp -= damage;
     printf("Monster attack dealt %d to you.\n\n", damage);
     }
@@ -51,7 +51,7 @@ void battle(){
 
   if(hero_hp < 0)
   {
-    printf("You have been slain!");
+    printf("You have been slain!\n\n");
   }
     
 
