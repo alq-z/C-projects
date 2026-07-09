@@ -53,6 +53,9 @@ void battle(){
   {
     printf("You have been slain!\n\n");
   }
+  if(monster_hp < 0){
+    printf("You defeated the monster.");
+  }
     
 
 }
