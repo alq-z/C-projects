@@ -76,7 +76,7 @@ int main(){
 
     switch(choice){
       case 1:
-        battle();
+        battle(); //battle logic function 
         break;
       case 2:
         printf("Closing...\n");
