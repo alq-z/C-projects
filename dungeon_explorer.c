@@ -50,7 +50,7 @@ void battle(){
     }
     
   }
-
+  //if hero hp is 0
   if(hero_hp < 0)
   {
     printf("You have been slain!\n\n");
