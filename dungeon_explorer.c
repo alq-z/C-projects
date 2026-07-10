@@ -17,7 +17,7 @@ void battle(){
     scanf("%d", &choice);
     
     int damage; //damage used for hero and monster 
-    
+    //for attack choice
     switch(choice)
     {
       case 1:
