@@ -61,7 +61,7 @@ void battle(){
     printf("You defeated the monster.\n");
     printf("Teleportation magic circle Activate\n\n");
   }
-  
+  printf("\n\n");
 
 }
 
