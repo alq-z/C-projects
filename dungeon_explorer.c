@@ -6,7 +6,7 @@ void battle(){
   
   // health value
   int hero_hp = 99;
-  int monster_hp = 150;
+  int monster_hp = 111;
   //choice to determine the execution in the condition 
   int choice;
 
