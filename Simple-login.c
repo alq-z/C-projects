@@ -35,12 +35,12 @@ int main()??<
       printf("Login Successfully!!??/n");
       isLogIn = false;
     ??>
-    else??<
+    else??< //if not match in strcmp()
       printf("Wrong credentials! please try again.??/n");
     ??>
   ??>
 
-  printf("***Welcome back %s***??/n", NAME);
+  printf("**- Welcome back %s -**??/n", NAME);
 
   return 0;
 ??>
