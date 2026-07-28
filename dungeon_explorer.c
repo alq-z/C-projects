@@ -33,7 +33,7 @@ void battle(){
         break;
 
       case 3:
-        damage = rand() % 8 + 10; //damage 11-15
+        damage = rand() % 8 + 5; //damage 11-15
         monster_hp -= damage;
         printf("Bogss!.. Lucky punch dealt %d to Monster.", damage);
         break
