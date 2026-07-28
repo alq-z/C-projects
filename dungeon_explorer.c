@@ -15,6 +15,7 @@ void battle(){
   printf("\nA Monster appeared!\n");
   
   while(hero_hp > 0 && monster_hp > 0){
+    // Attack choice 
     printf("1.Sword slash 2.Sword thrust 3.Lucky-punch\n");
     scanf("%d", &choice);
     
