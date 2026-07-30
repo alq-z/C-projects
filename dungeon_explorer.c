@@ -8,6 +8,7 @@ typedef struct {
 
 void battle(){
   type mons1 = {1};
+  type
   
   // health value
   //hero hp
