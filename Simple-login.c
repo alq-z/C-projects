@@ -3,7 +3,7 @@
 ??=include <stdbool.h>
 
 // Disclaimer this is not good example. Using Trigraphs is not recommend. I just use it for extra typing in the keyboard.
-// It may contain typo err
+// It may contain typo error 
 // I'm using Android browser to write this in Github.
 
 //.When compiling don't forget to add "-trigraphs" since I use trigraphs for this
