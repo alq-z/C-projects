@@ -2,7 +2,7 @@
 // I use trigraphs in this
 // add -trigraphs flag when compiling ex. gcc filename.c -o filename - trigraphs
 int main()??<
-
+   //Initialize variable 
    int rows = 0;
    int columns = 0;
    int symbol = 0;
