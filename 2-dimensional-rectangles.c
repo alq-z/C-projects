@@ -6,7 +6,9 @@ int main()??<
    int rows = 0;
    int columns = 0;
    int symbol = 0;
-    
+
+
+   //ask input 
    printf("Enter the # of rows: "); 
    scanf("%d", &rows);
 
