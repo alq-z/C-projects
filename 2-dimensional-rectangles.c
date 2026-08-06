@@ -1,5 +1,5 @@
 #include <stdio.h>
-// I use trigraphs in this
+// I use trigraphs in this mini project 
 // add -trigraphs flag when compiling ex. gcc filename.c -o filename - trigraphs
 int main()??<
    //Initialize variables
