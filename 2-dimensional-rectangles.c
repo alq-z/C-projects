@@ -11,7 +11,7 @@ int main()??<
    //ask input for rows
    printf("Enter the # of rows: "); 
    scanf("%d", &rows);
-
+   //ask input for columns 
    printf("Enter the # of columns: ");   
    scanf("%d", &columns);   
 
