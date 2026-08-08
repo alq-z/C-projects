@@ -8,7 +8,7 @@ int main()??<
    int symbol = 0;
 
 
-   //ask input 
+   //ask input for rows
    printf("Enter the # of rows: "); 
    scanf("%d", &rows);
 
