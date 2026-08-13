@@ -10,7 +10,7 @@ typedef struct {
 void battle(){
   type mons1 = {1};
   type mons2 = {2};
-   type mons3 ={3};
+  type mons3 = {3};
   // health values
   //hero hp
   int hero_hp = 89;
@@ -55,7 +55,7 @@ void battle(){
     //Monster attack 
     if(monster_hp > 0)
     {
-    damage = rand() % 11 + 10; //11-20 damage
+    damage = rand() % 11 + 10; //12-20 damage
     hero_hp -= damage;
     printf("Monster attack dealt %d to you.\n\n", damage);
     }
