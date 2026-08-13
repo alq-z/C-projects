@@ -11,7 +11,7 @@ void battle(){
   type mons1 = {1};
   type mons2 = {2};
   
-  // health value
+  // health values
   //hero hp
   int hero_hp = 89;
   //monster hp
