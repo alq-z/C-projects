@@ -10,7 +10,7 @@ typedef struct {
 void battle(){
   type mons1 = {1};
   type mons2 = {2};
-  
+   type mons3 ={3};
   // health values
   //hero hp
   int hero_hp = 89;
