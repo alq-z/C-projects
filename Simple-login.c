@@ -7,7 +7,7 @@
 // It may contain typo error 
 // I'm using Android browser to write this in Github.
 
-//.When compiling don't forget to add "-trigraphs" since I use trigraphs for this
+//.When compiling don't forget to add "-trigraphs" flag since I use trigraphs for this
 
 int main()??<
   //user credentials 
